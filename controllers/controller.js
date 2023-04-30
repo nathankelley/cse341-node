@@ -1,10 +1,10 @@
-const mongodb = require('../db/mongoDB');
+const mongodb = require('../db/dbConnect');
 
 const getData = async (req, res, next) => {
-    const result = await mongodb.getDb().db().collection('user').find();
+    const result = await mongodb.getDb().db('project_1').collection('contacts').find();
     result.toArray().then((lists) => {
         res.setHeader('Content-Type', 'application/json');
-        res.status(200).json(lists[0]); // we just need the first one (the only one)
+        res.status(200).json(lists);
     });
 };
 

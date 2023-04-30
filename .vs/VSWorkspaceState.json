@@ -1,8 +1,9 @@
 {
   "ExpandedNodes": [
     "",
+    "\\db",
     "\\routes"
   ],
-  "SelectedNode": "\\routes.rest",
+  "SelectedNode": "\\package.json",
   "PreviewInSolutionExplorer": false
 }

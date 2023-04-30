@@ -1,0 +1,23 @@
+{
+  "contact": {
+    "firstName": "Suhnya",
+    "lastName": "Kelley",
+    "email": "suhnya.eve@gmail.com",
+    "favoriteFood": "Sushi",
+    "birthday": "11/22/1993"
+  },
+  "contact2": {
+    "firstName": "Haneul",
+    "lastName": "Kelley",
+    "email": "Nathan.Haneul@gmail.com",
+    "favoriteFood": "Chicken Nuggets",
+    "birthday": "06/24/2019"
+  },
+  "contact3": {
+    "firstName": "Jin",
+    "lastName": "Kelley",
+    "email": "Jin.Helamen@gmail.com",
+    "favoriteFood": "Noodles",
+    "birthday": "10/27/21"
+  }
+}
