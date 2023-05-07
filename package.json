@@ -1,5 +1,5 @@
 {
-  "name": "cse341-node",
+  "name": "REST-practice",
   "version": "1.0.0",
   "description": "",
   "main": "app.js",
@@ -7,14 +7,17 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "nodemon app.js"
   },
-  "keywords": [],
-  "author": "Nathan Kelley",
+  "author": "",
   "license": "ISC",
   "dependencies": {
-    "body-parser": "^1.20.2",
+    "body-parser": "^1.18.3",
+    "bootstrap": "^5.2.3",
+    "cors": "^2.8.5",
     "dotenv": "^16.0.3",
-    "express": "^4.18.2",
-    "mongodb": "3.7",
+    "express": "^4.16.3",
+    "mongodb": "^4.4.0"
+  },
+  "devDependencies": {
     "nodemon": "^2.0.22"
   }
 }

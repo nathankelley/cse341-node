@@ -1,1 +1,38 @@
-http://localhost:8080/contacts
+// LOCALHOST
+###
+GET http://localhost:8080/contacts
+###
+GET http://localhost:8080/contacts/644cbca7221dde7ec9caddf2
+###
+GET http://localhost:8080/contacts/644cbcf7221dde7ec9caddf4
+
+### POST - create contact
+POST http://localhost:8080/contacts HTTP/1.1
+content-type: application/json
+
+{
+    "first_name": "Haneul",
+    "last_name": "Kelley",
+    "birthday": "06/24/2019",
+    "email": "N/A",
+    "favoriteFood": "chicken nuggets"
+}
+
+### PUT - edit/update contact
+PUT http://localhost:8080/contacts/645731ee60215933a749c91b HTTP/1.1
+content-type: application/json
+
+{
+    "first_name": "Han",
+    "last_name": "Kelley",
+    "birthday": "06/24/2019",
+    "email": "None",
+    "favoriteFood": "chicken nuggets"
+}
+
+### DELETE
+DELETE http://localhost:8080/contacts/64572f4d60215933a749c919 HTTP/1.1
+
+// PRODUCTION Deploy
+###
+

@@ -1,9 +1,8 @@
 {
   "ExpandedNodes": [
     "",
-    "\\db",
-    "\\routes"
+    "\\db"
   ],
-  "SelectedNode": "\\package.json",
+  "SelectedNode": "\\db\\connect.js",
   "PreviewInSolutionExplorer": false
 }

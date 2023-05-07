@@ -1,0 +1,54 @@
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>Contacts Form</title>
+    </head>
+    <body>
+        <header>
+            <nav></nav>
+        </header>
+        <main>
+            <div class="container">
+                <hr>
+                <h1>Create New Contact</h1>
+                <hr>
+
+                <form action="http://localhost:8080/contacts" method="POST">
+                    <div class="form-group">
+                        <label for="firstName">First Name</label>
+                        <input class="form-control" name="firstName">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="lastName">Last Name</label>
+                        <input class="form-control" name="lastName">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="birthday">Birthday</label>
+                        <input class="form-control" name="birthday">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input class="form-control" name="email">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="favoriteFood">Favorite Food</label>
+                        <input class="form-control" name="favoriteFood">
+                    </div>
+
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                </form>
+            </div>
+        </main>
+        <aside>
+
+        </aside>
+        <footer>
+
+        </footer>
+        <script src="../app.js" async defer></script>
+    </body>
+</html>
