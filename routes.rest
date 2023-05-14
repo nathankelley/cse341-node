@@ -11,11 +11,11 @@ POST http://localhost:8080/contacts HTTP/1.1
 content-type: application/json
 
 {
-    "first_name": "Haneul",
+    "first_name": "Nathan",
     "last_name": "Kelley",
-    "birthday": "06/24/2019",
-    "email": "N/A",
-    "favoriteFood": "chicken nuggets"
+    "birthday": "03/30/1996",
+    "email": "kelleyjnathan@gmail.com",
+    "favoriteFood": "pasta"
 }
 
 ### PUT - edit/update contact
